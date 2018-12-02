@@ -3,4 +3,4 @@
 
 [Build]
   Publish = ""
-  Functions = "functions"
+  Functions = "fns"

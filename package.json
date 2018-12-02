@@ -31,7 +31,8 @@
   },
   "scripts": {
     "dev": "gatsby develop",
-    "build": "gatsby build",
+    "build": "gatsby build && buildfn",
+    "buildfn": "mkdir fns && go get ./functions && go build -o fns/hello ./functions",
     "heroku-postbuild": "gatsby build",
     "serve": "gatsby serve",
     "setup": "npm install --no-save contentful-import yargs-parser axios chalk && node ./setup.js"
