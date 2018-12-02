@@ -31,7 +31,7 @@
   },
   "scripts": {
     "dev": "gatsby develop",
-    "build": "gatsby build && buildfn",
+    "build": "gatsby build && yarn buildfn",
     "buildfn": "mkdir fns && go get ./functions && go build -o fns/hello ./functions",
     "heroku-postbuild": "gatsby build",
     "serve": "gatsby serve",
