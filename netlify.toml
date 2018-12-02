@@ -4,3 +4,6 @@
 [Build]
   Publish = ""
   Functions = "fns"
+
+[build.environment]
+  GO_IMPORT_PATH = "functions"
